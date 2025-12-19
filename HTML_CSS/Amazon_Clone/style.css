@@ -57,11 +57,6 @@
     height: 40px;
     border-radius: 3px;
 }
-.nav-search {
-    display: flex;
-    border: 2px solid transparent;
-    border-radius: 6px;
-}
 
 /* When any child (input/select) is focused */
 .nav-search:focus-within {
@@ -97,6 +92,15 @@ span{
 }
 
 .nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
 }
