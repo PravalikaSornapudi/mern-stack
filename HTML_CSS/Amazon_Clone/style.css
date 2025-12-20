@@ -104,3 +104,34 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+
+
+.panel{
+    height: 40px;
+    background-color: rgba(9, 63, 41, 0.893);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.panel-all i{
+    font-size: 20px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
